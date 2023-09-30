@@ -17,6 +17,18 @@
    pnpm install
    ```
 
+## Environment Variables
+
+This project uses environment variables to store sensitive information, such as database credentials and API keys. To set up your environment variables, follow these steps:
+
+1. Create a new file called `.env` in the root directory of your project.
+
+2. Add the following lines to the `.env` file:
+
+   ```sh
+   DATABASE_URL="file:./dev.db"
+   OPENAI_KEY="YOUR_OPENAI_KEY"
+
 ### Dependencies
 
 - `fastify`
