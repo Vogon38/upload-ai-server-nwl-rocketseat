@@ -46,7 +46,7 @@
    pnpm prisma db seed
    ```
 
-## API Routes
+## API Routes (To view all available routes, click [here](https://github.com/Vogon38/upload-ai-server-nwl-rocketseat/tree/main/src/routes) 🧐)
 
 ### `POST /videos/:videoId/transcription`
 
