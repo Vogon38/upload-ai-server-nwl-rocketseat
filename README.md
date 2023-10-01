@@ -37,25 +37,30 @@ This project uses environment variables to store sensitive information, such as 
 - `prisma`
 - `openai`
 
-
 ### Running the App
+   
+1. Generate the database:
 
-1. Start the local database (optional):
+   ```sh
+   pnpm prisma generate
+   ```
+
+2. Seed the database:
+
+   ```sh
+   pnpm prisma db seed
+   ```
+
+4. Start the local database (optional):
 
    ```sh
    pnpm run dev
    ```
-
-2. Start the Prisma Studio to view the database:
+   
+5. Start the Prisma Studio to view the database:
 
    ```sh
    pnpm prisma studio
-   ```
-
-3. Seed the database:
-
-   ```sh
-   pnpm prisma db seed
    ```
 
 ## API Routes (To view all available routes, click [here](https://github.com/Vogon38/upload-ai-server-nwl-rocketseat/tree/main/src/routes) 🧐)
