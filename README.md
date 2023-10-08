@@ -51,6 +51,12 @@ This project uses environment variables to store sensitive information, such as 
    pnpm prisma db seed
    ```
 
+3. Create a tmp folder:
+
+   ```sh
+   mkdir tmp
+   ```
+
 4. Start the local database (optional):
 
    ```sh
